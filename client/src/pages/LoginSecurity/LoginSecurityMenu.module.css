@@ -1,0 +1,264 @@
+#LSfooter {
+    width: 100%;
+    padding-top: 100px;
+}
+
+#LSheader {
+    width: 100%;
+
+}
+
+.LoginSec-page-container {
+    width: 100%;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+.content-div {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding-left: 75px;
+    padding-top: 40px;
+    text-align: left;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.middle-div {
+    flex: 1;
+    position: relative;
+    margin-left: 30px;
+    padding-right: 3vw;
+    width: 40%;
+}
+
+
+.LSth {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: large;
+    padding: 20px 20px;
+    background-color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    outline: none white;
+}
+
+#LSformLabel {
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#LSWrapTable {
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 20px 0;
+    overflow: hidden;
+    width: 43vw;
+    min-width: 320px;
+}
+
+.LSMainTable tr th,
+.LSMainTable tr td {
+    outline: 0px white;
+    border: 0px;
+    height: 0px;
+}
+
+.LSMainTable tr {
+    outline: 0px white;
+    border: 0px;
+    height: 0px;
+}
+
+.question {
+    width: 21vw;
+}
+
+.loginSec-horizontal-block {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    gap: 3.5vw;
+    vertical-align: top;
+}
+
+#LCMenuBoxTd {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    padding: 0;
+    border-bottom: none;
+    text-wrap: wrap;
+}
+
+#LSFirstTitle {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+}
+
+#LSSecondTitle {
+    color: #6c6363;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14.5px;
+    font-family: 'Inter', sans-serif;
+}
+
+.line-horizontal {
+    height: 0.08vw;
+    background-color: black;
+}
+
+.horizontal-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;
+    gap: 1px;
+}
+
+
+#loginSecLinks {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 20px;
+    display: inline-block;
+    padding-top: 50px;
+    padding-right: 40px;
+    /* width: 120px; */
+    text-align: right;
+}
+
+
+
+#LSForm {
+    padding: 10px 20px;
+}
+
+.email-box,
+.password-box {
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(100, 100, 100);
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+}
+@media (min-width: 1445px) {
+    .content-div {
+        padding-right: 5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .question {
+        width: auto;
+    }
+
+    .loginSec-horizontal-block {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+@media (max-width: 932px) {
+    .loginSec-horizontal-block {
+        flex-direction: column;
+        gap: 20px;
+        min-width: 320px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .content-div {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        min-height: 120vh;
+    }
+
+    .middle-div {
+        margin-left: 0;
+        width: 70%;
+        max-width: 70%;
+
+    }
+
+    #LSWrapTable {
+        min-width: 80vw;
+    }
+
+    .loginSec-horizontal-block {
+        flex-direction: column;
+        gap: 20px;
+        min-width: 320px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .LStitles {
+        display: none;
+    }
+
+    #LCMenuBoxTd {
+        text-wrap: pretty;
+    }
+
+    #LSMainTable {
+        margin-bottom: 10px;
+    }
+
+    #LSForm {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        padding-left: 20px;
+    }
+
+    #LSWrapTable {
+        width: 91vw;
+        margin-right: 10px;
+    }
+
+    .LSheader,
+    .LSfooter {
+        text-align: center;
+    }
+    .content-div {
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        min-height: 98%;
+    }
+
+    .middle-div {
+        box-sizing: content-box;
+        width: 100%;
+        max-width: 400px;
+
+    }
+
+    .loginSec-horizontal-block {
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+        width: 100%;
+    }
+
+    .horizontal-button {
+        width: 92vw;
+    }
+
+    #loginSecLinks {
+        margin-left: 0;
+    }
+}

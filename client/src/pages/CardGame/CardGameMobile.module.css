@@ -1,0 +1,66 @@
+.contents{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header{
+  background-color: transparent;
+  margin-top: 5vw;
+  font-size: 6.25vw;
+  width: 77.5vw;
+  text-align: center;
+  font-family: Inter;
+font-weight: 700;
+line-height: 8.791vw;
+
+}
+
+.cardGameImage{
+  margin-top: 9vw;
+  width: 40vw;
+}
+
+.text{
+  margin-top: 14vw;
+  font-family: Inter;
+  font-size: 3.75vw;
+  font-weight: 400;
+  line-height: 5.275vw;
+  text-align: left;
+  width:80.313vw;
+}
+
+.shopButton{
+  margin-top: 8vw;
+  width: 68.438vw;
+  height: 10vw;
+  padding: 6.25vw 10vw 6.25vw 10vw;
+  gap: 14px;
+  border-radius: 1.25vw;
+  background: #000000;
+  border: none;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ margin-bottom: 20vw;
+}
+
+.shopButton:hover{
+  cursor: pointer;
+}
+
+.amazonLogo{
+  width: 6.25vw;
+  height: 6.25vw;
+
+}
+
+.shopOn{
+  font-family: Inter;
+  font-size: 4.375vw;
+  font-weight: 400;
+  text-align: left;
+  color: #FFFFFF;
+
+}

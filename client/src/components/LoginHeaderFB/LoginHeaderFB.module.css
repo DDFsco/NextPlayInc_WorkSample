@@ -1,0 +1,177 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.webHeader {
+  height: 100px;
+  width: 100%;
+  background-color: var(--navigation-bar-primary);
+  display: flex;
+  flex-direction: row;
+  gap: 10;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.logo {
+  width: 66px;
+  height: 66px;
+}
+
+.letterLogo {
+  width: 168px;
+  height: 38px;
+}
+
+.mainOptionsContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.rowOne {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 10px 0px 0px;
+  border-bottom: 1px solid var(--border-separator);
+}
+
+.linkOption > p {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-primary);
+}
+
+.activeUrl {
+  font-weight: 700;
+  border-bottom: 5px solid var(--active-tab-underline);
+}
+
+.italicAd {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 700;
+  transform: skewX(10deg);
+  color: var(--text-secondary);
+  text-decoration: underline;
+}
+
+.userText {
+  font-family: 'Inter';
+  font-size: 14px;
+  color: var(--text-primary);
+}
+
+.endOptionsContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.optionContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border-left: solid;
+  padding: 0px 10px 0px;
+  border-left-width: 1px;
+  border-left-color: var(--border-separator);
+}
+.rowTwo {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px 0px 0px;
+}
+
+.rowTwo .linkOption > p {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.optionRow {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.twoStackOptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.twoStackOptions p {
+  margin: 0;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.depositButton {
+  width: 165px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: var(--deposit-button-bg);
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  border: none;
+  text-align: center;
+}
+
+.signUpButton {
+  background-color: #005582;
+  color: white;
+  border: 1px solid white;
+  font-size: 14.5px;
+  height: 26px;
+  width: 97px;
+  cursor: pointer;
+  border-radius: 6px;
+  overflow: hidden; /* Ensures content does not overflow */
+  display: flex; /* Use flexbox to align the content */
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+  white-space: nowrap; /* Prevents text from wrapping */
+  text-overflow: ellipsis; /* Adds ellipsis if text overflows */
+}
+
+.signUpButton p {
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  white-space: nowrap; /* Prevents text from wrapping */
+  text-overflow: ellipsis; /* Adds ellipsis if text overflows */
+  overflow: hidden; /* Ensures content does not overflow */
+  color: white; /* Changes text color to white */
+}

@@ -1,0 +1,68 @@
+.dropDownProfile {
+  position: absolute;
+  flex-direction: column;
+  display: flex;
+  top: calc(-16px + 3vw);
+  right: calc(-12.66px + 0vw);
+  width: 17.222vw;
+  z-index: 2;
+  }
+
+  .dropDownContent {
+    position: absolute;
+    width: 15.222vw;
+    height: 12.8vw;
+    background-color: white;
+    font-weight: 300;
+    font-family: Inter, sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 0.139vw;
+    border: 0.069vw solid black;
+  }
+  
+  .dropDownContent li {
+    list-style: none;
+    margin-bottom: 0.694vw;
+  }
+  
+  .dropDownContent a {
+    display: block;
+    font-size: 0.972vw;
+    padding-left: 0.694vw;
+    color: black; /* You can adjust the color as needed */
+    text-decoration: none; /* This will remove the underline from the links */
+    cursor: pointer;
+    line-height: 2vw;
+  }
+  
+  .dropDownContent a:hover {
+    background-color: #f1f1f1; /* Adds a hover effect */
+    cursor:pointer;
+  }
+  
+  /* .dropDownContent::before {
+    content: '';
+    position: absolute;
+    top: -0.59vw; 
+    right: 2.5vw;
+    width: 1.042vw;
+    height: 1.042vw;
+    transform: rotate(45deg);
+
+    background-color: white;
+    border-left: 0.069vw solid black;
+    border-top: 0.069vw solid black;
+  } */
+
+  .dropDownContent::before {
+    content: '';
+    position: absolute;
+    top: -0.79vw;
+    right: 5vw;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0vw 1.3vw 1.0vw 1.3vw;
+    border-color: transparent transparent white transparent;
+  }

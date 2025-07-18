@@ -1,0 +1,513 @@
+/* General styles */
+.LSfooter {
+    width: 100%;
+    padding-top: 100px;
+}
+.LSheader {
+    width: 100%;
+}
+
+.LoginSec-page-container {
+    width: 100%;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+/* Updated CSS for profile picture block */
+#profilePictureBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 617px;
+    height: 66px;
+    color: #6C6363;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    border: 1px solid #000; /* Border for the block */
+    border-radius: 8px; /* Rounded corners */
+}
+
+#profilePictureBlock p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    color: #6C6363;
+}
+
+/* Hides the default file input */
+#fileSelector {
+    display: none;
+}
+
+#addPhotoLabel {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #007BFF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#addPhotoLabel:hover {
+    text-decoration: underline;
+}
+
+#addPhoto {
+    cursor: pointer;
+}
+
+/* Continue with your other CSS */
+.content-div {
+    display: flex;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    padding-left: 75px;
+    padding-top: 40px;
+}
+
+/* other existing styles continue here... */
+
+
+.content-div {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding-left: 75px;
+    padding-top: 40px;
+    text-align: left;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.middle-div {
+    flex: 1;
+    position: relative;
+    margin-left: 30px;
+    padding-right: 3vw;
+    width: 40%;
+}
+
+.login-security-header-div {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.login-security-header-div h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+}
+
+.login-security-header-div p {
+    font-size: 16px;
+    color: black;
+    margin-top: 0;
+}
+
+.inputButtonWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%; 
+}
+
+.login-security-section {
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 40vw;
+    min-width: 320px;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+    margin-top: 20px; 
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.update-email,
+.new-email,
+.password-confirmation,
+.confirm-new-email {
+    margin-bottom: 20px;
+}
+
+.loginSec-horizontal-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 3.4vw;
+    vertical-align: top;
+}
+
+.LSFirstTitle {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+}
+
+.LSSecondTitle {
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+    line-height: 14.5px;
+    font-family: 'Inter', sans-serif;
+}
+
+.formInput {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.formInput:focus {
+    border-color: #888;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.line-horizontal {
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    height: 1px;
+    margin-bottom: 20px;
+    align-items: center;
+    align-self: center;
+    background-color: black;
+}
+
+.horizontal-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;
+    gap: 1px;
+}
+
+.loginSecButtons {
+    width: 40%; 
+    padding: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#sendButtonMobile {
+    display: none;
+}
+
+.codeMessage {
+    padding-left: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    font-size: medium;
+}
+
+.LSth {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.LSformLabel {
+    font-weight: 700;
+    display: block;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.question-prompt-box {
+    display: flex;
+    width: 21vw;
+}
+
+@media (min-width: 1445px) {
+    .content-div {
+        padding-right: 5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .question {
+        width: auto;
+    }
+}
+
+@media (max-width: 932px) {
+    .question-prompt-box{
+        width: 90%;
+    }
+    .loginSec-horizontal-block {
+        flex-direction: column;
+        gap: 20px;
+        min-width: 320px;
+    }
+}
+
+@media (max-height: 480px) {
+    .formInput {
+        width: 100%;
+        max-width: none;
+    }
+
+    .LSheader {
+        text-align: center;
+    }
+
+    .login-security-header-div {
+        display: none; 
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .content-div {
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+        background-color: rgba(255, 255, 255, 1);
+        padding-left: 20px; 
+        padding-top: 40px;
+        box-sizing: border-box; 
+    }
+    
+    .login-security-header-div {
+        font-family: 'Inter', sans-serif;
+        text-align: left;
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+    
+    .login-security-header-div h1 {
+        font-size: 28px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 5px;
+    }
+    
+    .login-security-header-div p {
+        font-size: 16px;
+        color: black;
+        margin-top: 0;
+    }
+    
+    .inputButtonWrapper {
+        display: flex;
+        flex-direction: column; 
+        align-items: stretch; 
+        gap: 10px; 
+        width: 100%;
+    }
+    
+    .login-security-section {
+        font-family: 'Inter', sans-serif;
+        flex: 2;
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 20px;
+        margin-top: 20px;
+        background-color: rgba(255, 255, 255, 1);
+        box-sizing: border-box;
+        width: 100%; 
+    }
+    
+    .update-email,
+    .new-email,
+    .password-confirmation,
+    .confirm-new-email {
+        margin-bottom: 20px;
+    }
+    
+    .loginSec-horizontal-block {
+        display: flex;
+        flex-direction: column; 
+        gap: 20px;
+        padding-right: 20px;
+        vertical-align: top;
+    }
+    
+    .LSFirstTitle {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 39px;
+        text-align: left;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .LSSecondTitle {
+        font-size: 12px;
+        color: black;
+        font-weight: 500;
+        line-height: 14.5px;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .formInput {
+        width: 100%; 
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        color: #333;
+        box-sizing: border-box;
+    }
+    
+    .formInput:focus {
+        border-color: #888;
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .line-horizontal {
+        width: calc(100% + 40px);
+        margin-left: -20px;
+        height: 1px;
+        margin-bottom: 20px;
+        align-items: center;
+        align-self: center;
+        background-color: black;
+    }
+    
+    .horizontal-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 1px;
+        flex-direction: column; 
+    }
+    
+    .loginSecButtons {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .LSth {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 30px;
+        color: black;
+    }
+    
+    .LSformLabel {
+        font-weight: 700;
+        display: block;
+        font-size: 16px;
+        color: black;
+        margin-bottom: 8px;
+    }
+    
+    .error-message {
+        color: red;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
+
+/* Media query for mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .inputButtonWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        gap: 3px;
+        width: 100%; 
+    }
+    .content-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .middle-div {
+        max-width: 400px;
+        width: 100%;
+        margin-left: 10px;
+        padding: 0;
+    }
+
+    .loginSec-horizontal-block {
+        display: block;
+        width: 90vw;
+        padding-right: 0;
+        gap: 0;
+    }
+
+    .formInput {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        height: 32px;
+    }
+
+    .question-prompt-box {
+        display:flex;
+        width: 100%;
+        justify-content: center;
+        padding: 10px;
+        margin-top: 70px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .loginSecButtons {
+        width: 100%;
+        text-decoration: underline;
+    }
+
+    .formInput {
+        width: 100%;
+        max-width: none;
+    }
+
+    .LSheader {
+        text-align: center;
+    }
+
+    .login-security-header-div {
+        display: none; 
+    }
+
+    .login-security-section {
+        padding-bottom: 0;
+    }
+
+    #sendButtonMobile {
+        display: inline;
+    }
+
+    #sendButton {
+        display: none;
+    }
+}

@@ -1,0 +1,117 @@
+.referFriendtc {
+    width: 100%;
+    background-color: #fff;
+    text-align: left;
+    font-size: 15px;
+    color: #000;
+    font-family: Inter, sans-serif;
+  }
+  
+  .defaultWebHeader {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #005982;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+  
+  .nextplayLogoLetter1{
+    position: relative;
+    right : 20px;
+    height: 66px;
+    cursor: pointer;
+  }
+  .baseballLogo11 {
+    position: relative;
+    right : 1370px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .mainFrame {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  
+  .header p {
+    margin-top: 10px;
+    color: #171a1f;
+  }
+  
+  .tableOfContents {
+    background-color: #d3e8f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tableOfContents ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .tableOfContents li {
+    margin-bottom: 10px;
+  }
+  
+  .tableOfContents a {
+    color: #005982;
+    text-decoration: none;
+  }
+
+  .content {
+    width: 900px;
+    margin-left: 100px;
+    align-items: center;
+  }
+  
+  .content section {
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .content h2 {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .content p,
+  .content ul,
+  .content ol {
+    color: black;
+    margin: 0 0 10px 20px;
+    line-height: 1.6;
+  }
+  
+  .content ul,
+  .content ol {
+    list-style-type: disc;
+  }
+  
+  .content ul ul,
+  .content ol ol {
+    list-style-type: circle;
+  }
+  
+  .content strong {
+    font-weight: bold;
+  }
+  

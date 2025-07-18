@@ -1,0 +1,147 @@
+.cardGame {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    font-family: Inter, sans-serif;
+  }
+  
+  .header {
+    background-color: #005982;
+    display: flex;
+    align-items: center;
+    padding: 1.389vw;
+    color: white;
+  }
+  
+  .baseballLogo {
+    height: 4.583vw;
+    cursor: pointer;
+  
+  }
+  
+  .nextPlayLogo {
+    height: 2.639vw;
+    margin-left: 1.389vw;
+  }
+
+  .headerTextContainer {
+    position: absolute;
+    align-items: center;
+    top: 25px;
+    left: 632px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.222vw;
+    color: white;
+  }
+  
+  .headerTitle {
+    font-weight: 600;
+  }
+  
+  .headerSubtitle {
+    font-size: 1.667vw;
+    font-weight: 500;
+
+  }
+  
+  .pageTitle {
+    color: white;
+    margin-left: 1.389vw;
+  }
+
+  
+  .pageTitle h1 {
+    color: white;
+    margin: 0;
+    font-size: 1.667vw;
+  }
+  
+  .pageTitle h2 {
+    color: white;
+    margin: 0;
+    font-size: 1.25vw;
+  }
+  
+  .mainFrame {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.778vw;
+    margin-bottom: 8.333vw;
+    
+  }
+  
+  .cardGameImage {
+    margin-top: 3.472vw;
+    margin-left: 6.944vw;
+    max-width: 20%;
+    height: auto;
+  }
+  
+  .description {
+    margin-top: 3.389vw;
+    max-width: 50%;
+    width: 26.908vw;
+    text-align: left;
+    margin-right: 3.472vw;
+  }
+  
+  .description h2 {
+    font-size: 2.222vw;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .description p {
+    font-weight: 300;
+    font-size: 1.05vw;
+    margin: 1.389vw 0;
+  }
+
+  .shopButton {
+    text-decoration: none;
+    display: flex;
+    padding: 0.694vw 1.389vw;
+    background-color: black;
+    color: white;
+    border-radius: 0.694vw;
+    cursor: pointer;
+    max-width: 13.889vw;
+    max-height: 22.833vw;
+    margin-top: 2.778vw;
+    margin-left: 3.472vw;
+  }
+
+  .shop{
+    font-size: 0.89vw;
+  }
+
+  .amazonIcon {
+    width: 3.472vw;
+    height: auto;
+    margin-right: 0.694vw;
+  }
+
+  .amazonText {
+    text-decoration: none;
+    display: flex;
+    margin-left: 1.042vw;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the start to reduce gap */
+    gap: -2.778vw; /* Remove gap between text elements */
+  }
+
+  .amazonText span {
+    font-weight: 50;
+  }
+  
+  .amazon {
+    position: absolute;
+    margin-top: 1.389vw;
+    font-weight: 300;
+    font-family: Inter, sans-serif;
+    font-size: 1.683vw;
+    
+  }

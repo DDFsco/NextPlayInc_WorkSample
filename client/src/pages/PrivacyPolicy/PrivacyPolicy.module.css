@@ -1,0 +1,119 @@
+.header-text {
+    z-index: 21;
+    font-family: 'droid_serifitalic';
+    color: white;
+    font-size: 2.778vw;
+    top: 0px; /* Adjust this value to your desired position */
+    
+
+}
+
+.text {
+    color: #000;
+    padding-left: 3%; /* Add padding to the left for spacing */
+    padding-right: 3%;
+    font-size: 0.833vw;
+    font-family:Inter;
+}
+
+.headerTextContainer {
+    top: 0.972vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.222vw;
+    color: white;
+
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    align-items: center;
+  }
+  
+  .headerTitle {
+    font-weight: 500;
+    font-size: 2.222vw;
+  }
+  
+  .headerSubtitle {
+    font-size: 1.667vw;
+    font-weight: 700;
+
+  }
+
+.content-div {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;
+    padding-left: 7%; /* Add padding to the left for spacing */
+    padding-right: 7%;
+    margin: 0;
+    padding-top: 5%;
+}
+
+.footer {
+    margin-top: 7%; /* Add margin to the top of the footer */
+}
+
+.email-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.main-content {
+    overflow-y: auto;
+    max-height: 41.667vw;
+    max-width: 138.889vw;
+    background-color: #CDCDCD;
+    flex: 1;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;
+    margin-left: 1.389vw; /* Space between menu and content */
+    padding-right: 1.111vw; /* Add padding to the right for spacing */
+}
+
+.header{
+    font-size:2.222vw;
+    font-family:Inter;
+}
+.help-box {
+    margin-top: 1.389vw;
+    padding: 1.389vw;
+    border: 0.069vw solid black;
+
+    background-color: #f9f9f9;
+}
+
+.main-content h1 { /* Target the h1 element within the sidebar */
+    text-align: center;
+}
+
+.main-content h2 { /* Target the h1 element within the sidebar */
+    text-align: center;
+    font-size: 0.833vw;
+    font-family:Inter;
+    color: #000;
+}
+
+
+.help-black-bold {
+    font-weight: bold;
+    color: #000;
+}
+
+
+.list {
+    list-style-type: disc;
+    padding-left: 4%;
+    font-size: 0.833vw;
+    font-family: Inter;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+    font-weight: bold;
+}
+
+.list li {
+    font-size: 0.833vw;
+    font-family: Inter;
+    margin-bottom: 0.3vw; 
+}

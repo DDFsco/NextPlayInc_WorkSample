@@ -1,0 +1,53 @@
+.notifsPopupContainer {
+    position: absolute;
+    width: 23vw;
+    height: 27vw;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: #F5F5F5;
+    top: 3vw;
+    right: 0.25rem;
+    border: 0.25vw solid #000;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    right: 0.25rem;
+}
+
+.notifTitle {
+    color: #6C6363;
+    font-family: Inter;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 1vw;
+}
+
+.notifContent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8vw; /* Vertical gap between notifications */
+    overflow-y: auto; /* Allows scrolling if there are many notifications */
+    margin-left: 0.5vw;
+}
+
+.viewAllText {
+    color: #005982;
+    font-family: Inter;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 1vw;
+    cursor: pointer;
+    align-self: center;
+}
+
+.noNotifsText {
+    color: #6C6363;
+    font-family: Inter;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+}

@@ -1,0 +1,471 @@
+/* src/components/header.module.css */
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #005982;
+    justify-content: space-between;
+    padding-right: 0cm;
+    width: 100%;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    min-height: 6.944vw;
+    color: white;
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.431vw;
+    font-family: Inter;
+    margin-right: 19.722vw;
+    width: 50vw;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    height: 6.944vw;
+}
+
+.logo {
+    height: 2.778vw;
+    width: 11.667vw;
+    margin-right: 0.694vw;
+    margin-top: 2.08333vw;
+    margin-bottom: 2.08333vw;
+}
+
+.iconography {
+    height: 6.944vw;
+}
+
+.trophy {
+    height: 4.583vw;
+    margin-right: 1.111vw;
+    margin-left: 1.111vw;
+    margin-top: 1.181vw;
+    margin-bottom: 1.181vw;
+}
+
+.dailyFantasy {
+    font-size: 0.972vw;
+    margin-left: 0px;
+    padding-top: 0.764vw;
+    padding-bottom: 0.741vw;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-weight: 700;
+    width: 7.569vw;
+    height: 1.134vw;
+    text-wrap: nowrap;
+    font-family: Inter;
+    border-bottom: 0.069vw solid #B6B6B6;
+}
+
+.dailyFantasyBorder {
+    box-sizing: content-box;
+    font-size: 0.972vw;
+    margin-left: 0px;
+    padding-top: 0.55vw;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-weight: 700;
+    width: 7.569vw;
+    height: 1.134vw;
+    text-wrap: nowrap;
+    font-family: Inter;
+    padding-bottom: 0.403vw;
+    position: relative;
+    top: calc(.353333px - .017592vw);
+    border-bottom: 0.4vw solid #d4af37;
+}
+
+
+
+.divideRows {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 0px;
+    top: 0px;
+    margin-left: 1.042vw;
+    margin-right: .2vw;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2.778vw;
+    font-size: 0.833vw;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.money {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0px;
+    text-align: center;
+    font-size: 0.833vw;
+}
+
+.navItem {
+    font-size: 1.042vw;
+    color: white;
+    padding: 0px;
+    padding-top: 1.458vw;
+    padding-bottom: calc(.9px + 1.25vw);
+    margin-right: 0.694vw;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-bottom: transparent solid 0.347vw;
+    font-family: Inter;
+}
+
+.onNavPage {
+    font-size: 1.042vw;
+    padding: 0px;
+    padding-top: 1.458vw;
+    padding-bottom: calc(.9px + 1.25vw);
+    margin-right: 0.694vw;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    border-bottom: #D4AF37 solid 0.4vw;
+    font-family: Inter;
+}
+
+
+.onNavPage:hover {
+    cursor: pointer;
+}
+
+.myContests {
+    font-size: 1.042vw;
+    font-family: Inter;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    padding-top: 1.458vw;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 1.57vw;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.navItem:hover {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1.042vw;
+}
+
+.ctaRight {
+    display: flex;
+    justify-content: right;
+    gap: 1.042vw;
+}
+
+.topRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loginInfo {
+    display: flex;
+    justify-content: right;
+    padding-bottom: 0px;
+    gap: 0px;
+    border-bottom: 0.069vw solid #B6B6B6;
+    flex-grow: 1;
+}
+
+.bottomRow {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0px;
+}
+
+.referralLink {
+    color: #D4AF37;
+    font-size: 0.972vw;
+    border-right: 0.069vw solid #B6B6B6;
+    padding-right: 1.528vw;
+    padding-top: 0.556vw;
+    margin-top: 0.208vw;
+    margin-bottom: 0.347vw;
+    font-weight: 600;
+    font-family: Inter;
+    padding-bottom: 0.139vw;
+    text-underline-offset: .1vw;
+    font-style: italic;
+}
+
+.referralLinkCentered {
+    color: #D4AF37;
+    font-size: 0.972vw;
+    border-right: 0.069vw solid #B6B6B6;
+    padding-right: 5.764vw;
+    padding-top: 0.556vw;
+    margin-top: 0.208vw;
+    margin-bottom: 0.347vw;
+    font-weight: 600;
+    font-family: Inter;
+    padding-bottom: 0.139vw;
+    font-style: italic;
+}
+
+.signUpButton {
+    background-color: #005582;
+    color: white;
+    border: 0.069vw solid white;
+    font-size: 1.042vw;
+    height: 1.806vw;
+    width: 6.736vw;
+    margin-right: 1.736vw;
+    margin-left: 1.771vw;
+    padding-top: .0694vw;
+    margin-top: 0.416666vw;
+    cursor: pointer;
+    border-radius: 0.417vw;
+    line-height: 1;
+    text-wrap: nowrap;
+}
+
+.signUpButtonNoHover {
+    background-color: #005582;
+    color: white;
+    border: 0.069vw solid white;
+    font-size: 1.042vw;
+    height: 1.806vw;
+    width: 6.736vw;
+    margin-right: 1.736vw;
+    margin-left: 1.771vw;
+    padding-top: .0694vw;
+    margin-top: 0.416666vw;
+    cursor: pointer;
+    border-radius: 0.417vw;
+    line-height: 1;
+    text-wrap: nowrap;
+}
+
+.signUpButton:hover {
+    background-color: #FFBB33;
+    color: white;
+}
+
+.creditInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 0.069vw solid #B6B6B6;
+    padding-right: 0.694vw;
+    padding-left: 0.694vw;
+    gap: 0px;
+    margin-bottom: 0.278vw;
+    margin-top: 0.278vw;
+    padding-top: 0.347vw;
+    padding-bottom: 0.347vw;
+    font-family: Inter;
+}
+
+.creditType {
+    font-size: 0.833vw;
+    color: white;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    align-content: center;
+    font-family: Inter;
+}
+
+.creditAmount {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 500;
+    gap: 1.111vw;
+    font-family: Inter;
+}
+
+.dollar {
+    color: #D4AF37;
+    font-size: 0.833vw;
+    padding-bottom: 0.347vw;
+    padding-top: 0.694vw;
+    font-weight: 600;
+    text-align: right;
+    font-family: Inter;
+    width: 3.472vw;
+    margin-right: 0.694vw;
+}
+
+.credit {
+    color: #1CED3D;
+    font-size: 0.833vw;
+    text-align: right;
+    padding-top: 0.694vw;
+    font-weight: 600;
+    padding-bottom: 0.347vw;
+    width: 3.472vw;
+    font-family: Inter;
+    margin-right: 0.694vw;
+}
+
+.icon {
+    color: white;
+}
+
+.profilePic {
+    height: 1.597vw;
+    width: 1.597vw;
+    margin-top: 0.486vw;
+    margin-left: 0.41666vw;
+    cursor: pointer;
+}
+
+.userIcon {
+    margin-top: 0.556vw;
+    margin-left: 0.625vw;
+    font-size: 118.75%;
+}
+
+.bellIcon {
+    font-size: 137.5%;
+    padding-top: 0.625vw;
+    padding-left: 0.833vw;
+    padding-right: 0.694vw;
+    padding-bottom: 0.486vw;
+    width: 1.319vw;
+    height: 1.528vw;
+}
+
+.bellIcon:hover {
+    cursor: pointer;
+}
+
+.infoIcon {
+    position: relative;
+    left: -0px;
+    padding-top: 0.486vw;
+    top: 0px;
+    width: 0.903vw;
+    margin-top: 0.277vw;
+}
+
+.downIcon {
+    color: #ECCF37;
+    font-size: 150%;
+    padding-top: 0.278vw;
+    padding-bottom: 0.069vw;
+    padding-right: 0.625vw;
+    margin-bottom: 0.347vw;
+    margin-top: 0.278vw;
+    margin-left: 0.625vw;
+    width: 1.667vw;
+    height: 1.458vw;
+    cursor: pointer;
+}
+
+.rightIcon {
+    color: black;
+    font-size: 100%;
+    cursor: pointer;
+    rotate: -90deg;
+    margin-left: 0.347vw;
+}
+
+.numNotifications {
+    font-family: Inter;
+    position: relative;
+    left: -0.694vw;
+    text-align: left;
+    font-size: .833333vw;
+    margin-top: .27777vw;
+}
+
+.username {
+    font-family: Inter;
+    font-size: 0.833vw;
+    color: white;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0.694vw;
+    padding-left: 0.556vw;
+    margin-bottom: 0px;
+    padding-right: 0.347vw;
+    width: 4.861vw;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.depositButton {
+    font-family: Inter;
+    background-color: #1CED3D;
+    color: black;
+    border: none;
+    width: 11.458vw;
+    height: 2.708vw;
+    margin-top: 0.347vw;
+    font-size: 1.111vw;
+    cursor: pointer;
+    margin-left: 0.694vw;
+    margin-top: 0.764vw;
+    margin-bottom: 0.764vw;
+    margin-right: 0.972vw;
+    margin-left: 1.389vw;
+    border-radius: 0.694vw;
+    font-weight: 700;
+    padding: 0.347vw;
+}
+
+.depositButton:hover {
+    background-color: #09b843;
+}
+
+
+
+
+
+.notificationsGap {
+    width: 2.865vw;
+    border-left: 0.069vw solid #B6B6B6;
+    margin-top: 0.278vw;
+    margin-bottom: 0.347vw;
+    height: 2.014vw;
+}
+
+.infoIconContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    right: 8.333vw;
+    z-index: 1;
+}
+
+.infoIconContainer:hover .popup {
+    display: block;
+}

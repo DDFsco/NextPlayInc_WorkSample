@@ -1,0 +1,114 @@
+.header{
+    background-color: #005982;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.topRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.trophy{
+    width: 14.688vw;
+    height: 14.688vw;
+    margin-left: 4.688vw;
+}
+
+.logo{
+    height: 7.813vw;
+    width: 40vw;
+    margin-left: 6.25vw;
+}
+
+.menu{
+    height: 6vw;
+    width: 6vw;
+    margin-left: 3.75vw;
+}
+
+.menu:hover{
+    cursor: pointer;
+}
+
+.bell{
+    height: 6.25vw;
+    width: 6.25vw;
+    color: white;
+    margin-left: 9.375vw;
+}
+
+.numNotifications{
+    color: white;
+    font-size: 2.5vw;
+    font-family: Inter;
+    padding-bottom: 4.375vw;
+    position: relative;
+    left: -.5089vw;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+
+.navItem{
+    width: 25vw;
+}
+
+.navItemText{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Inter;
+    font-size: 3.125vw;
+    font-weight: 400;
+    line-height: 3.781vw;
+    text-align: center;
+    color: #E1E1E1;
+    padding-bottom: 1.563vw;
+    border-bottom: transparent solid 0.625vw;
+    cursor: pointer;
+
+}
+.navItemText:hover{
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.onNavPage{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Inter;
+    font-size: 3.125vw;
+    font-weight: 600;
+    line-height: 3.781vw;
+    padding-bottom: 1.563vw;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-bottom: #D4AF37 solid 0.8vw;
+}
+
+.loginButton {
+    background-color: #005582;
+    color: white;
+    border: 0.313vw solid white;
+    cursor: pointer;
+    font-size: 3.75vw;
+    height: 6.25vw;
+    width: 20vw;
+    border-radius: 1.875vw;
+    text-wrap: nowrap;
+    margin-left: 7.5vw;
+}
+
+.loginButton:hover {
+    background-color: #FFBB33;
+}

@@ -1,0 +1,399 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.overlap {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #005982;
+  padding-top: 3.125vw;
+  padding-bottom: 4.514vw;
+  margin-top: 7.292vw;
+}
+
+.nextPlay {
+  position: relative;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 1.25vw;
+  font-weight: 700;
+  column-gap: 1.389vw;
+
+}
+
+.mediaIcon {
+  position: relative;
+  display: flex;
+  column-gap: 1.042vw;
+  
+}
+
+.div {
+  position: relative;
+  font-size: 0.833vw;
+  color: #ffffff;
+  font: "Inter-Regular", Helvetica;
+  margin-top: 1.042vw;
+  margin-bottom: 1.042vw;
+}
+
+.imgFacebook {
+  height: 2.083vw;
+  object-fit: cover;
+  width: 2.083vw;
+  cursor: pointer;
+}
+
+.footer .imgInstagram {
+  height: 2.083vw;
+  object-fit: cover;
+  width: 2.083vw;
+  cursor: pointer;
+}
+
+.footer .imgTiktok {
+  width: 1.7vw;
+  height: 1.8vw;
+  cursor: pointer;
+}
+
+.footer .imgTwitter {
+  position: relative;
+  height: 1.389vw;
+  object-fit: cover;
+  width: 1.389vw;
+  cursor: pointer;
+  margin-top: 0.278vw;
+}
+
+.footer .imgYoutube {
+  height: 2.083vw;
+  object-fit: cover;
+  width: 2.083vw;
+  cursor: pointer;
+}
+
+.Company {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-family: "Extra-Bold", Helvetica;
+  font-size: 0.833vw;
+}
+
+.footer .textCompany {
+  position: relative;
+  color: #ffffff;
+  font-family: "Extra-Bold", Helvetica;
+  font-weight: 600;
+  margin-bottom: 2.083vw;
+  font-size: 1.111vw;
+}
+
+.footer .textMailAdd {
+  position: relative;
+  font-family: "Extra-Bold", Helvetica;
+  font-weight: 600;
+  font-size:0.972vw;
+  color: #ffffff;
+}
+
+.footer .textAboutNP {
+  color: #ffffff;
+  height: 12.083vw;
+  left: 41.667vw;
+  width: 11.389vw;
+  font-size: 0.833vw;
+}
+
+.links{
+  border: transparent;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.833vw;
+  padding-bottom: 0.7vw;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  text-align: left;
+}
+
+.links:hover{
+  background-color: transparent;
+}
+
+.footer .textAboutNextPlay {
+  border: transparent;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.833vw;
+  padding-bottom: 0.347vw;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.footer .textCareers {
+  border: transparent;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.833vw;
+  padding-bottom: 0.347vw;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.footer .textMobileApps {
+  border: transparent;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.833vw;
+  padding-bottom: 0.347vw;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.footer .textRefer{
+  border: transparent;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.833vw;
+  padding-bottom: 0.347vw;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.footer .textPrivacy {
+  border: transparent;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.833vw;
+  padding-bottom: 0.347vw;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.footer .textGetHelp {
+  border: transparent;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.833vw;
+  padding-bottom: 0.347vw;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.footer .textTerms {
+  border: transparent;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.833vw;
+  padding-bottom: 0.347vw;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.footer .textResponsible{
+  border: transparent;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.833vw;
+  padding-bottom: 0.347vw;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.footer .textAddress {
+  color: #ffffff;
+  height: 4.861vw;
+  font-size: 0.833vw;
+  line-height: 1.389vw;
+  font-weight: normal;
+  text-align: left;
+  margin-top: 1.875vw;
+}
+
+.footer .textRequirement {
+  position: relative;
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 0.833vw;
+  font-weight: 400;
+  font-style: italic;
+  height: 9.792vw;
+  line-height: 1.389vw;
+  width: 22.431vw;
+}
+
+.span {
+  color: white;
+  font-family: Inter;
+  font-size: 0.833vw;
+  font-weight: 400;
+  line-height: 1.389vw;
+  text-align: left;
+}
+
+.footer .textBold {
+  font-family: "Extra-Bold", Helvetica;
+  font-size: large;
+  color: white;
+  font-size: var(--context-text-bold-font-size);
+  font-style: var(--context-text-bold-font-style);
+  font-weight: var(--context-text-bold-font-weight);
+  letter-spacing: var(--context-text-bold-letter-spacing);
+  line-height: var(--context-text-bold-line-height);
+}
+
+.grayOverlapGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: normal;
+  justify-content: space-between;
+  background-color: #808080;
+  width: 100%;
+  height: 4.444vw;
+}
+.copyright{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .image {
+  height: 1.181vw;
+  left: 1.806vw;
+  object-fit: cover;
+  position: absolute;
+  width: 2.292vw;
+  
+}
+
+.p {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 0.833vw;
+  font-weight: 400;
+  line-height: 1.389vw;
+  text-align: left;
+  height: 1.806vw;
+  margin: 0px;
+  padding-top: 0.347vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footer .imgAmericanFlag {
+  height: 1.206vw;
+  width: 2.292vw;
+  margin-left: 1.597vw;
+  margin-right: 0.556vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footer .overlap_2 {
+  height: 2.778vw;
+  position: relative;
+  width: 2.778vw;
+  margin-right :3.125vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-direction: row;
+}
+
+.footer .ellipse {
+  background-color: #d9d9d9;
+  border-radius: 1.389vw;
+  height: 2.778vw;
+  position: absolute;
+  width: 2.778vw;
+
+}
+
+.footer .ellipse_2 {
+  background-color: #ffffff;
+  border-radius: 1.111vw;
+  height: 2.222vw;
+  position: absolute;
+  left: 0.278vw;
+  top:0.278vw;
+  width: 2.222vw;
+}
+
+.footer .eighteenPlus {
+  color: #000000;
+  font-family: Inter;
+  font-size: 1.111vw;
+  font-style: var(--body-text-title-bold-font-style);
+  font-weight: 700;
+  height: 2.222vw;
+  letter-spacing: var(--body-text-title-bold-letter-spacing);
+  line-height: var(--body-text-title-bold-line-height);
+  position: absolute;
+  left: 0.417vw;
+  top: 0.694vw;
+  width: 4.028vw;
+}
+
+.footer .overlap_3 {
+  height: 3.472vw;
+  position: relative;
+
+}
+
+.footer .rectangle {
+  background-color: #ffffff;
+  height: 1.528vw;
+  width: 100%;
+}
+
+.footer .rectangle_2 {
+  background: #005982;
+  height: 2.083vw;
+  width: 100%;
+}
+
+.footer .sessionTime {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: var(--context-text-font-size);
+  font-style: var(--context-text-font-style);
+  font-weight: var(--context-text-font-weight);
+  height: 1.528vw;
+  letter-spacing: var(--context-text-letter-spacing);
+  line-height: var(--context-text-line-height);
+  position: relative;
+  left: 0.694vw;
+  white-space: nowrap;
+  width: 298px;
+}
+
+.footer .serverTime {
+  color: #ffffff;
+  position: relative;
+  font-family: Inter;
+  font-size: var(--context-text-font-size);
+  font-style: var(--context-text-font-style);
+  font-weight: var(--context-text-font-weight);
+  height: 1.528vw;
+  left: 83%;
+  letter-spacing: var(--context-text-letter-spacing);
+  line-height: var(--context-text-line-height);
+  padding-top: 2px;
+  white-space: nowrap;
+  width: 15.486vw;
+}

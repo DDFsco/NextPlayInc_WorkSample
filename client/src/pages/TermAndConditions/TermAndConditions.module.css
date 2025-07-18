@@ -1,0 +1,101 @@
+.nextplayLogoLetter1 {
+    position: absolute;
+    top: 2.153vw;
+    left: 6.806vw;
+    width: 11.667vw;
+    height: 2.639vw;
+    object-fit: cover;
+  }
+  
+  .baseballLogo11 {
+    position: absolute;
+    top: 1.111vw;
+    left: 1.389vw;
+    width: 4.583vw;
+    height: 4.583vw;
+    object-fit: cover;
+  }
+  
+  .defaultWebHeader {
+    position: relative;
+    background-color: #005982;
+    width: 100%;
+    height: 6.944vw;
+    display: flex;
+    align-items: center;
+  }
+
+  
+  .headerTextContainer {
+    position: absolute;
+    top: 0.972vw;
+    left: 37.278vw;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.222vw;
+    color: white;
+  }
+  
+  .headerTitle {
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .headerSubtitle {
+    font-size: 1.667vw;
+    font-weight: 600;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .mainFrame {
+    position: relative;
+    top: 4.944vw;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    width: 80vw;
+    height: 70vw;
+    overflow: hidden;
+    text-align: left;
+    font-size: 1.042vw;
+    color: #000;
+    font-family: Inter, sans-serif;
+    padding: 1.389vw;
+  }
+  
+  .termsContent {
+    background-color: #cdcdcd;
+    padding: 2.778vw;
+    border-radius: 0px;
+    height: 55.5555vw;
+    overflow-y: scroll; 
+  }
+  
+  .termsHeader {
+    text-align: center;
+    margin-bottom: 1.389vw;
+  }
+  
+  .termsTitle {
+    font-size: 1.667vw;
+    font-weight: 500;
+  }
+  
+  .lastUpdate {
+    font-size: 1.042vw;
+    color: #171a1f;
+  }
+  
+
+  .termsBody p {
+    color: black;
+    margin: 0 0 0.694vw 0;
+    font-size: 0.833vw;
+    line-height: 1.5;
+    white-space: pre-wrap;
+  }
+  

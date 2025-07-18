@@ -1,0 +1,185 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 7.292vw;
+}
+
+.blue{
+  width:100%;
+  height: 136vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #005982;
+}
+
+.contents{
+  padding: 9.375vw;
+}
+
+.nextPlay{
+  font-family: Inter;
+  font-size: 6.3vw;
+  font-weight: 600;
+  line-height: 5.775vw;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: 3.75vw;
+  margin-bottom: 3.125vw;
+}
+
+.location{
+  font-family: Inter;
+  font-size: 3.675vw;
+  font-weight: 700;
+  line-height: 5.775vw;
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 3.75vw;
+}
+
+.socials{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 7.813vw;
+}
+
+.imgFB {
+  position: relative;
+  object-fit: cover;
+  width: 11.812vw;
+  cursor: pointer;
+  margin-right: 6.25vw;
+}
+
+.imgX {
+  position: relative;
+  object-fit: cover;
+  width: 7.997vw;
+  cursor: pointer;
+  margin-right: 6.25vw;
+  bottom: .7vw;
+}
+
+.imgIG {
+  position: relative;
+  object-fit: cover;
+  width: 11.812vw;
+  cursor: pointer;
+  margin-right: 6.25vw;
+}
+
+.imgTT {
+  position: relative;
+  object-fit: cover;
+  width: 8.3vw;
+  cursor: pointer;
+  margin-right: 6.25vw;
+  bottom: .7vw;
+}
+
+.imgYT {
+  position: relative;
+  object-fit: cover;
+  width: 11.812vw;
+  cursor: pointer;
+  margin-right: 6.25vw;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  font-family: Inter;
+  font-size: 4.375vw;
+  font-weight: 700;
+  line-height: 6.875vw;
+  text-align: left;
+  color: white;
+  margin-bottom: 6.25vw;
+}
+
+.links{
+  border: transparent;
+  background-color: transparent;
+  font-family: Inter;
+  font-size: 3.75vw;
+  font-weight: 400;
+  line-height: 6.25vw;
+  text-align: left;
+  padding-left: 0;
+  cursor: pointer;
+  color:white;
+}
+
+.mailing{
+  font-family: Inter;
+  font-size: 3.75vw;
+  font-weight: 400;
+  line-height: 6.25vw;
+  text-align: left;
+  color:white;
+}
+
+.gray{
+  width:100%;
+  height: 18.75vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: #808080;
+}
+
+.americanFlag{
+  width: 10.313vw;
+  height: 5.313vw;
+  margin-left: 2.813vw;
+  margin-top: 4.688vw;
+}
+
+.rights{
+  font-family: Inter;
+  width: 49.063vw;
+  font-size: 3.75vw;
+  font-weight: 400;
+  line-height: 6.25vw;
+  margin-left: 3.75vw;
+  margin-top: 1.875vw;
+  text-align: left;
+  color: white;
+}
+
+.ageLabel{
+  margin-left: 18vw;
+  margin-top: 2.188vw;
+}
+
+.circle{
+  position: absolute;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  height: 12.5vw;
+  width: 12.5vw;
+}
+
+.age{
+  position: absolute;
+  font-family: Inter;
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 6.875vw;
+  text-align: left;
+  color: black;
+  top: 5vw;
+  right: 4.7vw;
+}

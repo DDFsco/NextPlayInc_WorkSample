@@ -1,0 +1,23 @@
+.popup {
+    position: absolute;
+    width: 12.5vw;
+    height: 3.9888vw;
+    box-shadow: 0px .278vw .278vw rgba(0, 0, 0, 0.25);
+    border-radius: .694vw;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    padding: .694vw;
+    align-items: flex-start;  /* Align items to the top */
+    justify-content: flex-start;  /* Align content to the start (left) */
+
+}
+
+.text {
+    text-align: left;  /* Align text to the left */
+    font-weight: 300;
+    font-family: Inter;
+    color: black;
+    background-color: white;
+    font-size: .833vw;
+}

@@ -1,0 +1,443 @@
+/* General Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+  width: 31.25vw;
+  height: 37.5vw;
+  background: #ffffff;
+  padding-bottom: 2.083vw;
+  border-radius: 0.278vw;
+  margin-bottom: 80px;
+}
+
+.background {
+  gap: 13.889vw;
+  align-items: start;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  box-sizing: border-box;
+  background: url('../../assets/loginBackground/background.png') no-repeat
+    center center fixed;
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for header (Login) */
+.headerText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625vw;
+  width: 100%;
+  margin-top: 2.083vw;
+  margin-bottom: 2.083vw;
+}
+
+/* Style for text (Login) */
+.text {
+  font-family: 'Inter', Helvetica;
+  color: #015985;
+  font-size: 1.944vw;
+  font-weight: 600;
+}
+
+/* Style for text (Underline below Login) */
+.underline {
+  width: 4.236vw;
+  height: 0.417vw;
+  background: white;
+  border-radius: 0.625vw;
+}
+
+/* Style for inputs box background */
+.inputs {
+  margin-top: 3.819vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.736vw;
+}
+
+/* Style for input box background */
+.input {
+  display: flex;
+  align-items: center;
+  margin-right: 0px;
+  margin-top: 1.5278vw;
+  width: 19.444vw;
+  height: 2.778vw;
+  position: relative;
+  background: transparent;
+  border-radius: 0.417vw;
+}
+
+.input input {
+  margin-left: 2.083vw;
+  padding-left: 1.125vw;
+  height: 2.778vw;
+  width: 13.889vw;
+  background: white;
+  color: black;
+  font-size: 1.042vw;
+  border-radius: 0.417vw;
+  border: none;
+  border: 0.069vw solid #787878;
+}
+
+/* Style for forgot-password button background */
+.forgot-password {
+  font-family: 'Inter', Helvetica;
+  padding-left: 4.306vw;
+  color: #797979;
+  font-size: 0.972vw;
+}
+
+/* Style for forgot-password button text */
+.forgotPassword {
+  font-weight: 600;
+  font-family: 'Inter', Helvetica;
+  padding-left: 0px;
+  margin-top: 2vw;
+  color: #2b2a2c;
+  cursor: pointer;
+  font-size: 0.903vw;
+  text-decoration: underline;
+  position: relative;
+  left: -4.444vw;
+  text-decoration: underline;
+}
+
+.sendCode {
+  font-family: 'Inter', Helvetica;
+  font-weight: 600;
+  position: absolute;
+  padding-left: 0px;
+  margin-top: 5.556vw;
+  color: #2b2a2c;
+  cursor: pointer;
+  font-size: 0.903vw;
+  text-decoration: underline;
+  padding-top: 0px;
+  position: relative;
+  margin-bottom: 1.389vw;
+}
+
+.sign-up {
+  padding-left: 0px;
+  margin-top: 0px;
+  color: white;
+  font-size: 0.903vw;
+  left: -4.097vw;
+  position: relative;
+}
+
+.sign-up span {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.submitContainer {
+  display: flex;
+  position: relative;
+  left: 0px;
+  top: 2.778vw;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  height: 2.514vw;
+  background: #015985;
+  color: #ffffff;
+  border-radius: 3.472vw;
+  font-size: 1.389vw;
+  font-weight: 300;
+  cursor: pointer;
+  border: none;
+}
+
+/* Remove any hover effects if they exist */
+
+.continue {
+  height: 1.875vw;
+  width: 1.875vw;
+  cursor: pointer;
+}
+
+.staySignedIn {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2vw;
+  position: relative;
+  left: -4.167vw;
+}
+
+.staySignedInBox {
+  width: 1.389vw;
+  height: 1.389vw;
+  appearance: none;
+  background-color: transparent;
+  border: 0.139vw solid #afb1b6;
+  border-radius: 0.278vw;
+  cursor: pointer;
+  position: relative;
+}
+
+.staySignedInBox:checked {
+  background-color: transparent;
+  border: 0.139vw solid #afb1b6;
+}
+
+.staySignedInBox:checked::after {
+  content: '';
+  position: absolute;
+  top: 0.069vw;
+  left: 0.347vw;
+  width: 0.347vw;
+  height: 0.694vw;
+  border: solid #afb1b6;
+  border-width: 0 0.139vw 0.139vw 0;
+  transform: rotate(45deg);
+}
+
+.staySignedInText {
+  font-family: 'Inter', Helvetica;
+  width: 6.944vw;
+  margin-left: 0.417vw;
+  color: #015985;
+  font-size: 0.972vw;
+  position: relative;
+  top: calc(2.64px + 0.1vw);
+}
+
+.error {
+  position: absolute;
+  font-family: 'Inter', Helvetica;
+  color: rgb(246, 255, 0);
+  font-size: 0.833vw;
+  margin-top: 4.236vw;
+  margin-left: 1.736vw;
+}
+
+.userIcon {
+  color: #888;
+  height: 1.181vw;
+  width: 1.181vw;
+  left: 1.944vw;
+  position: relative;
+  top: calc(2.14px + 0.1vw);
+}
+
+.passwordIcon {
+  color: #888;
+  height: 1.181vw;
+  width: 1.181vw;
+  left: 1.944vw;
+  position: relative;
+  top: calc(2.14px + 0.1vw);
+}
+
+.hideIcon {
+  color: #787878;
+  height: 1.389vw;
+  width: 1.389vw;
+  right: 4.514vw;
+  position: relative;
+  top: calc(2.14px + 0.1vw);
+  cursor: pointer;
+}
+
+.error-box {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: none; /* Remove the border */
+  padding: 0.347vw 0.694vw;
+  border-radius: 0.347vw; /* Match border-radius with input-container */
+  /*box-shadow: 0px 0.278vw 0.278vw 0px rgba(0, 0, 0, 0.25); /* Match box-shadow with input-container */
+  font-size: 0.694vw; /* Match font-size with input-container */
+  font-family: 'Inter', Helvetica;
+  margin-top: 0.389vw;
+  margin-bottom: -0.389vw;
+  width: 49%; /* Match width with input-container */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+}
+
+.inputType {
+  position: absolute;
+  font-size: 0.83333vw;
+  color: #787878;
+  background: white;
+  top: -0.6vw;
+  left: 3.1vw;
+  padding-left: 0.3vw;
+  padding-right: 0.3vw;
+}
+
+/* Media queries for mobile responsiveness */
+@media (max-width: 768px) and (pointer: coarse) {
+  .container {
+    box-sizing: content-box;
+    width: 75vw;
+    height: auto;
+    padding: 5vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10vw;
+  }
+
+  .cover {
+    padding-bottom: 10vw;
+  }
+  
+  .background {
+    gap: 5vw;
+  }
+
+  .headerText {
+    margin-top: 4vw;
+  }
+
+  .text {
+    font-size: 7vw;
+  }
+
+  .underline {
+    width: 20vw;
+    height: 1vw;
+  }
+
+  .inputs {
+    margin-top: 5vw;
+    gap: 5vw;
+  }
+
+  .input {
+    width: 65vw;
+    height: auto;
+    margin-top: 8vw;
+  }
+
+  .input input {
+    box-sizing: content-box;
+    width: 57vw;
+    padding-left: 3vw;
+    height: 10vw;
+    font-size: 4vw;
+    border-radius: 1vw;
+    background-color: white;
+  }
+
+  .forgot-password,
+  .forgotPassword,
+  .sendCode,
+  .sign-up {
+    font-size: 3vw;
+    padding-left: 2vw;
+    margin-top: 3vw;
+  }
+
+  .forgotPassword,
+  .sign-up span {
+    width: 65vw;
+    margin-top: 4vw;
+    left: 1vw;
+    font-size: 4vw;
+  }
+
+  .sendCode span {
+    text-align: center;
+    font-size: 4vw;
+    width: 65vw;
+    margin-top: 4vw;
+  }
+
+  .submitContainer {
+    width: 36.25vw;
+    height: 10vw;
+    padding: 5vw;
+    font-size: 5vw;
+    border-radius: 10vw;
+    top: 0vw;
+    color: white;
+    font-weight: 600;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+  }
+
+  .staySignedIn {
+    width: 65vw;
+    margin-top: 2vw;
+    left: 1vw;
+  }
+
+  .staySignedInBox {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 2vw;
+    border-width: 0.5vw;
+  }
+
+  .staySignedInBox:checked::after {
+    top: 1vw;
+    left: 1.5vw;
+    width: 1vw;
+    height: 2vw;
+    border-width: 0 0.5vw 0.5vw 0;
+  }
+
+  .staySignedInText {
+    width: 50vw;
+    font-size: 4vw;
+    margin-left: 2vw;
+  }
+
+  .error {
+    font-size: 4vw;
+    margin-top: 10vw;
+    margin-left: 2vw;
+  }
+
+  .userIcon,
+  .passwordIcon,
+  .hideIcon {
+    height: 4vw;
+    width: 4vw;
+    left: 6vw;
+  }
+
+  .hideIcon {
+    right: 8vw;
+    left: -10vw;
+    width: 6vw;
+  }
+
+  .error-box {
+    font-size: 4vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 60vw;
+    padding: 1vw;
+    margin-left: 0vw;
+    border-radius: 1vw;
+    height: 0vw auto;
+  }
+
+  .inputType {
+    position: absolute;
+    font-size: 3.75vw;
+    color: #787878;
+    background: white;
+    top: -2vw;
+    left: 6vw;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+  }
+}
